@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_config_friends",
+  "info": {
+    "displayName": "Friends"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.social-link",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_config_main_menus",
+  "info": {
+    "displayName": "MainMenu"
+  },
+  "options": {},
+  "attributes": {
+    "navigationLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "config.link",
+      "required": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "socialLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "config.social-link"
+    }
+  }
+}

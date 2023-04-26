@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_config_impressums",
+  "info": {
+    "displayName": "Impressum"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

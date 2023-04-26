@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_featured_featured_boxes",
+  "info": {
+    "displayName": "FeaturedBox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "unique": false
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "config.link"
+    },
+    "isFeatured": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
