@@ -13,7 +13,7 @@
     "cover": {
       "type": "media",
       "multiple": false,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "videos"
@@ -22,7 +22,8 @@
     "link": {
       "type": "component",
       "repeatable": false,
-      "component": "config.link"
+      "component": "config.link",
+      "required": true
     },
     "isFeatured": {
       "type": "boolean",

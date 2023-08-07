@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * main-menu router
+ * slide router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::main-menu.main-menu');
+module.exports = createCoreRouter('api::slide.slide');

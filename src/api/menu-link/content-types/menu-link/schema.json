@@ -1,14 +1,13 @@
 {
   "kind": "collectionType",
-  "collectionName": "check_out_lists",
+  "collectionName": "menu_links",
   "info": {
-    "singularName": "check-out-list",
-    "pluralName": "check-out-lists",
-    "displayName": "CheckOutList",
-    "description": ""
+    "singularName": "menu-link",
+    "pluralName": "menu-links",
+    "displayName": "MenuLinks"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -16,23 +15,23 @@
     }
   },
   "attributes": {
-    "checkOutBox": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "featured.featured-box"
-    },
-    "listTitle": {
+    "label": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
       "type": "string",
+      "required": true
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "uid",
+      "targetField": "label",
       "required": true
     }
   }

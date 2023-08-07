@@ -44,11 +44,6 @@
         }
       },
       "component": "featured.featured-article"
-    },
-    "check_out_list": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::check-out-list.check-out-list"
     }
   }
 }
