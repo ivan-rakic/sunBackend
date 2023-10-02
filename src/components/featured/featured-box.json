@@ -23,7 +23,8 @@
       "type": "component",
       "repeatable": false,
       "component": "config.link",
-      "required": true
+      "required": true,
+      "private": true
     },
     "isFeatured": {
       "type": "boolean",
