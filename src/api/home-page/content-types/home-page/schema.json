@@ -25,16 +25,6 @@
       "type": "string",
       "required": true
     },
-    "Slides": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "featured.slide"
-    },
     "featuredArticles": {
       "type": "component",
       "repeatable": true,
